@@ -1,4 +1,4 @@
-// swift-tools-version:5.9
+// swift-tools-version:5.3
 
 // Copyright 2020 Google LLC
 //
@@ -19,7 +19,7 @@ import PackageDescription
 let package = Package(
   name: "GoogleMapsUtils",
   platforms: [
-    .iOS(.v15),
+    .iOS(.v13),
   ],
   products: [
     .library(
