@@ -28,8 +28,8 @@ let package = Package(
   ],
   dependencies: [
     .package(
-      url: "https://github.com/googlemaps/ios-maps-sdk",
-      from: "9.4.0"),
+      url: "https://github.com/N-ihad/ios-maps-sdk",
+      revision: "f90484603ae062ed082b5f58b5ca0ad6fadcb102"),
     .package(
       url: "https://github.com/erikdoe/ocmock.git",
       revision: "fe1661a3efed11831a6452f4b1a0c5e6ddc08c3d"),
